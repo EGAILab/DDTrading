@@ -14,13 +14,13 @@ import TechnicalIndicators as ti
 
 
 # appdata_root = "/storage/emulated/0/AppData/"
-appdata_root = "C:/AI/AIDATA/"
+appdata_root = "F:/AI/AIDATA/"
 # code_root = "/storage/emulated/0/qpython/projects/"
-code_root = "C:/AI/AIPROJECTS/"
+code_root = "F:/AI/AIPROJECTS/"
 
 data_path = appdata_root + "temp/coinmetrics/"
 dataset_path = appdata_root + "dataset/coinmetrics/"
-code_path = code_root + "TradingBot/"
+code_path = code_root + "DDTrading/"
 
 btc_filename = data_path + "btc.csv"
 price_filename = dataset_path + "price.csv"
