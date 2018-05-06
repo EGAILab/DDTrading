@@ -85,13 +85,14 @@ def test_ti():
     #print("dataframe after: ")
     #print(df_out)
     
+    df.plot()
     plt.show()
     plt.savefig(code_path + "plot.png")
 
     
 if __name__ == "__main__":
     
-    #test_ti()
+    test_ti()
 
     # build dataframe
     df_price, df_price_nonan = build_dataframe_price()
