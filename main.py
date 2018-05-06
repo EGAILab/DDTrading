@@ -77,8 +77,8 @@ def build_dataframe_price():
 
 def test_ti():
 
-    #data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-    #df = pd.DataFrame(data=data)
+    data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    df = pd.DataFrame(data=data)
     #print("dataframe before: ")
     #print(df)
     #df_out = ti.calculate_cci(df, 3)
